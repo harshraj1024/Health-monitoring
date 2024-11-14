@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .highlight-link {
+            color: #2980b9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+    </header>
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="https://thingspeak.mathworks.com/channels/2745350/private_show" class="highlight-link">Patient Real-Time Data</a>
+    </nav>
+    <div class="container">
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Welcome to our Hospital Management System. Here, we provide top-notch healthcare services with modern management tools to streamline patient care, staff scheduling, and data access.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>In-patient and Out-patient Care</li>
+                <li>Emergency Services</li>
+                <li>Specialized Medical Departments</li>
+                <li>Pharmacy and Lab Management</li>
+            </ul>
+        </section>
+        <section id="realtime-data">
+            <h2>Real-Time Patient Data</h2>
+            <p>Access real-time health data of patients monitored through connected devices and sensors. Click the link below to view data on the ThingSpeak server.</p>
+            <a href="https://thingspeak.mathworks.com/channels/2745350/private_show" target="_blank" class="highlight-link">View Patient Data on ThingSpeak</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
